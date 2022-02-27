@@ -1,0 +1,154 @@
+/* font-family: 'Lobster Two', cursive; */
+/* font-family: 'Roboto Mono', monospace; */
+
+html {
+  background: url(/images-main/images_main/skook-large.JPEG)no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+}
+
+header{
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  z-index: 1;
+  
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+
+#logo {
+  background-color: black;
+  padding: 10px;
+  border-radius: 50px 0px 50px 0px;
+  text-shadow: 2px 2px rgb(4, 221, 221);
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-weight: bold;
+  text-shadow: 2px 1px 1px rgb(175, 2, 175);
+  z-index: 1;
+}
+
+.navbar .logo {
+  color: white;
+  text-align: center;
+}
+
+.navbar li {
+  text-decoration: none;
+  list-style: none;
+  margin: 15px;
+  /* background-color: black;
+  padding: 10px;
+  border-radius: 15px 15px 0px 0px; */
+}
+
+
+
+.about {
+  height: 650px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main_info h1, h2 {
+  color: black;
+  text-align: center;
+  font-family: 'Lobster Two', cursive;
+  
+  
+}
+
+
+
+.main_info {
+  border: 3px solid black;
+  height: 500px;
+  width: 500px;
+  margin: 150px 100px;
+
+  padding: 10px 20px;
+  border-radius: 20px;
+  justify-content: space-between;
+  background-color: rgba(221, 220, 220, 0.425);
+  box-sizing: border-box;
+  overflow: overlay;
+}
+
+.main_info p {
+  font-size: 1.25em;
+}
+
+
+.headshot {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  position: relative;
+  box-shadow: 5px 4px 8px black;
+}
+
+.headshot img {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.headshot_box {
+  display: flex;
+  justify-content: center;
+}
+
+
+footer {
+  display: block;
+  justify-content: space-around;
+  align-items: center;
+  font-size: .75em;
+  background-color: rgba(0, 0, 0, 0.671);
+  color: white;
+  padding: 10px 0px;
+  margin-top: 75px;
+}
+
+footer * {
+  /* padding: 20px; */
+  text-align: center;
+  color: white;
+}
+
+footer img {
+  width: 35px;
+  height: 30px;
+  display: inline-block;
+}
+
+.socials  a {
+  padding: 0px 20px;
+}
+
+
+
